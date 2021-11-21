@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acudits</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bodyContainer">
+        <img class="fondo" src="images/img1.jpg" alt="fondo" width="100%" height="100%">
+        <p>Avui: parcialment ennuvolat</p>
+        <div class="acuditContainer">
+            <h2>Preparat per riure? &#129315</h2>
+            <div id="app"></div>
+            <div class="buttonScore">
+                <button onclick="valorarAcudit(1)"> 1</button>
+                <button onclick="valorarAcudit(2)"> 2</button>
+                <button onclick="valorarAcudit(3)"> 3</button>
+            </div>
+            <div class="buttonNext">
+                <button onclick="getAcudit()">Següent acudit</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
